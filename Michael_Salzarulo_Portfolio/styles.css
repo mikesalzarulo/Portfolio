@@ -1,8 +1,19 @@
-body {
-    background-color: orange;
-}
-
 .body1 {
     padding: 5%;
     text-align: center;
+}
+
+.body2 {
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    line-height: 2;
+    padding: 5%;
+    
+}
+
+.bottom-container {
+    text-align: center;
+    padding: 2%;
 }
