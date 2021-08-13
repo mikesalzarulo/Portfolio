@@ -1,5 +1,9 @@
 /* https://colorhunt.co/palette/cee5d0f3f0d7d8b3845e454b */
 
+p,
+li {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .navbar {
     background-color: #CEE5D0;
@@ -30,13 +34,7 @@
 }
 
 .body3 {
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-weight: 500;
-    line-height: 2;
-    padding: 5%;
-
+    margin-top: 3%;
 }
 
 .carousel-item {
@@ -69,14 +67,14 @@
 .bottom-container {
     text-align: center;
     padding-bottom: 1%;
-    background-color:#adb5bd;
+    background-color: #adb5bd;
     padding-top: 1%;
 }
 
 .footlink {
     padding: 1%;
     font-size: 2.5rem;
-    
+
 }
 
 .footer-link {
@@ -85,21 +83,24 @@
 
 /* Resume CSS */
 
-.resh1  {
+.resh1 {
     text-align: center;
     padding-top: 1%;
     font-size: 4rem;
-    font-family: 
+    font-family: 'Source Serif Pro', serif;
     font-weight: 700;
 }
 
-.resh3  {
+.resh3 {
     text-align: center;
     padding-bottom: 1%;
     padding-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .rescolumns {
     padding: 3% 3% 3%;
-    
+
 }
