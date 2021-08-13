@@ -35,33 +35,15 @@ li {
 
 .body3 {
     margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .carousel-item {
-    height: 80vh;
-    min-height: 300px;
-    background: no-repeat center scroll;
-    background-size: cover;
+    height: auto; 
 }
 
 .carousel-inner img {
     margin: auto;
-}
-
-.carousel-caption h5 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
-    color: #FAF1E6;
-
-}
-
-.carousel-caption p {
-    font-size: 2rem;
-    letter-spacing: 2px;
-    margin-top: 25px;
-    color: #FAF1E6;
 }
 
 .bottom-container {
