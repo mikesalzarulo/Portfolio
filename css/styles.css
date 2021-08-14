@@ -5,13 +5,9 @@ li {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
-    background-color: #CEE5D0;
-}
-
-.navbar-item {
-    background-color: white;
-}
+.navbar { font-family: 'PT Serif', serif;
+    !important;
+ }
 
 .card {
     margin-bottom: 2%;
