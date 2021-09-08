@@ -6,28 +6,30 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Home</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="favicon_io (1)/favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="favicon_io (1)/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet" />
 
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 </head>
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css" />
 
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/f44257edeb.js" crossorigin="anonymous"></script>
 
 <body>
-
   <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Michael Salzarulo</a>
@@ -40,54 +42,70 @@
           <a class="nav-link active" aria-current="page" href="index.html">Portfolio</a>
           <a class="nav-link" href="resume.html">Resume</a>
           <a class="nav-link" href="mailto:michaelasalzarulo@gmail.com" target="_blank">Contact</a>
-
         </div>
-
       </div>
-
     </div>
-
   </nav>
 
-
-
   <!-- Body First Section - Projects-->
-  <div>
 
-    <div class="container body1">
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: auto;">
-            <img src="images/SimonSays.png" class="card-img-top" alt="Simon_Says_Image">
-            <div class="card-body">
-              <h5 class="card-title">Simon Says</h5>
-              <p class="card-text">Simon says follow the pattern of color. Follow the pattern and see how high of a
-                score you can
-                get! </p>
-              <a href="Simon Game Challenge/index.html" class="btn btn-dark">Simon Says</a>
-            </div>
+  <div class="container body1">
+    <div class="row justify-content-center">
+    <div class="col-4">
+      <div class="card h-100" style="width: auto; height: auto;">
+        <img src="images/NewsLetter.png" class="card-img-top" alt="newsletterSignup" />
+        <div class="card-body">
+          <h5 class="card-title">Newsletter Sign Up</h5>
+          <p class="card-text">
+            Newsletter signup web app built with Node.js/ Express, Mailchimp API, and
+            deployed with Heroku.
+          </p>
+          <a href="https://aqueous-beyond-66025.herokuapp.com/" class="btn btn-dark" target="blank">Sign Up</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card h-100" style="width: auto; height: auto;">
+        <img src="images/SimonSays.png" class="card-img-top" alt="Simon_Says_Image" />
+        <div class="card-body">
+          <h5 class="card-title">Simon Says</h5>
+          <p class="card-text">
+            Simon says follow the pattern of color with jQuery and vanilla
+            JavaScript. Follow the pattern and see how high of a score you
+            can get!
+          </p>
+          <a href="Simon Game Challenge/index.html" class="btn btn-dark">Simon Says</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="row justify-content-center row2">
+      <div class="col-4">
+        <div class="card h-100" style="width: auto">
+          <img src="images/DiceGame.png" class="card-img-top" alt="Dice_Game_Image" />
+          <div class="card-body">
+            <h5 class="card-title">Dice Game</h5>
+            <p class="card-text">
+              Test your luck with the computer to see if you can win at
+              rolling the dice using vanilla JavaScript! Refresh the page to
+              restart.
+            </p>
+            <a href="Dicee Challenge/dicee.html" class="btn btn-dark">Dice Game</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: auto;">
-            <img src="images/DiceGame.png" class="card-img-top" alt="Dice_Game_Image">
-            <div class="card-body">
-              <h5 class="card-title">Dice Game</h5>
-              <p class="card-text">Test your luck with the computer to see if you can win at rolling the dice! Refresh
-                the page to restart.</p>
-              <a href="Dicee Challenge/dicee.html" class="btn btn-dark">Dice Game</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: auto;">
-            <img src="images/DrumGame.png" class="card-img-top" alt="Drum_Game_Image">
-            <div class="card-body">
-              <h5 class="card-title">Drum Game</h5>
-              <p class="card-text">Do you think you're musically inclined? Create a tune using the drums through various
-                click and key events!</p>
-              <a href="Drum Kit Event Game/index.html" class="btn btn-dark">Play Drums</a>
-            </div>
+      </div>
+      <div class="col-4">
+        <div class="card h-100" style="width: auto">
+          <img src="images/DrumGame.png" class="card-img-top" alt="Drum_Game_Image" />
+          <div class="card-body">
+            <h5 class="card-title">Drum Game</h5>
+            <p class="card-text">
+              Do you think you're musically inclined? Create a tune using the
+              drums through various click and key events with jQuery DOM!
+            </p>
+            <a href="Drum Kit Event Game/index.html" class="btn btn-dark">Play Drums</a>
           </div>
         </div>
       </div>
@@ -101,56 +119,57 @@
       <em>Why I Chose to Code</em>
     </h1>
     <p>
-      I believe the answer comes down to being a problem solver at heart. To take a problem and develop a solution to
-      completion is satisfaction.
-      The reason for inspiration surprisingly came from a commonly known YouTuber who goes by the handle of, "<a
-        href="https://www.youtube.com/watch?v=hGg8L7Xlrgc&t=502s" target="_blank">Techlead</a>," and it all stemmed
-      from a video he made about why he dislikes working at Google. This was around the time I was getting out of the
-      Navy and figuring out the next step
-      in my life, so no option was off the table. I was just so stumped in wondering how someone could dislike working at
-      Google that I couldn't help but watch.
-      It turns out the entire video was a montage of hilarious satire. Regardless, I was <em>hooked</em>.
+      I believe the answer comes down to being a problem solver at heart. To
+      take a problem and develop a solution to completion is satisfaction. The
+      reason for inspiration surprisingly came from a commonly known YouTuber
+      who goes by the handle of, "<a href="https://www.youtube.com/watch?v=hGg8L7Xlrgc&t=502s"
+        target="_blank">Techlead</a>," and it all stemmed from a video he made about why he dislikes
+      working at Google. This was around the time I was getting out of the
+      Navy and figuring out the next step in my life, so no option was off the
+      table. I was just so stumped in wondering how someone could dislike
+      working at Google that I couldn't help but watch. It turns out the
+      entire video was a montage of hilarious satire. Regardless, I was
+      <em>hooked</em>.
     </p>
     <p>
-      I will say though that the reasoning behind why was that I really wanted to work with people who thought similarly
-      to Software Engineers and developers.
-      I discovered a newfound passion for technology and the way the internet worked. To really dive into the history of
-      software development excited me.
-      I bought books, Udemy courses, started my CS degree, and even attended YouTube University. I was all in. An
-      interesting example of what I find amazing is
-      how old JavaScript is. Brendan Eich must be an incredible programmer, because learning it for the first go around can be quite a challenge. I still can't believe the old school
-      IDE was notepad.
-      My thanks go out to Microsoft for developing VSC and I'm sure other developers feel the same!
-
+      I will say though that the reasoning behind why was that I really wanted
+      to work with people who thought similarly to Software Engineers and
+      developers. I discovered a newfound passion for technology and the way
+      the internet worked. To really dive into the history of software
+      development excited me. I bought books, Udemy courses, started my CS
+      degree, and even attended YouTube University. I was all in. An
+      interesting example of what I find amazing is how old JavaScript is.
+      Brendan Eich must be an incredible programmer, because learning it for
+      the first go around can be quite a challenge. I still can't believe the
+      old school IDE was notepad. My thanks go out to Microsoft for developing
+      VSC and I'm sure other developers feel the same!
     </p>
   </div>
-
 
   <!-- Body3 Third Section "Pictures of Hobbies"-->
   <div class="body3">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-50" src="images/DanburyTrain.jpeg" alt="First slide">
+          <img class="d-block w-50" src="images/DanburyTrain.jpeg" alt="First slide" />
         </div>
         <div class="carousel-item">
-          <img class="d-block w-50" src="images/Brothers.JPG" alt="Second slide">
+          <img class="d-block w-50" src="images/Brothers.JPG" alt="Second slide" />
         </div>
         <div class="carousel-item">
-          <img class="d-block w-50" src="images/Mom:Grandma.jpeg" alt="Third slide">
+          <img class="d-block w-50" src="images/Mom:Grandma.jpeg" alt="Third slide" />
         </div>
       </div>
     </div>
   </div>
 
-
   <div class="bottom-container">
     <div class="footlink">
-      <a class="footer-link" href="https://www.linkedin.com/in/michaelsalzarulo/" target="_blank"><Span
-          style="color: #000;"><i class="fab fa-linkedin"></i></Span></a>
-      <a class="footer-link" href="https://github.com/mikesalzarulo" target="_blank"><Span style="color: #000;"><i
-            class="fab fa-github"></i></Span></a>
-      <a class="footer-link" href="resume.html"><Span style="color: #000;"><i class="fas fa-file"></i></Span></a>
+      <a class="footer-link" href="https://www.linkedin.com/in/michaelsalzarulo/" target="_blank"><span
+          style="color: #000"><i class="fab fa-linkedin"></i></span></a>
+      <a class="footer-link" href="https://github.com/mikesalzarulo" target="_blank"><span style="color: #000"><i
+            class="fab fa-github"></i></span></a>
+      <a class="footer-link" href="resume.html"><span style="color: #000"><i class="fas fa-file"></i></span></a>
     </div>
     <p class="name">© 2021 Michael Salzarulo</p>
   </div>

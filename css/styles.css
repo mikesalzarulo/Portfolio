@@ -5,9 +5,15 @@ li {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    color: #e5e4e2;
+  }
+
 .navbar { font-family: 'PT Serif', serif;
     !important;
  }
+
+ /* Portfolio Page */
 
 .card {
     margin-bottom: 2%;
@@ -17,10 +23,15 @@ li {
     opacity: .5;
 }
 
+
 .body1 {
     text-align: center;
-    padding: 5%;
+    padding: 3%;
 
+}
+
+.row2 {
+    padding-top:5% ; 
 }
 
 .body2 {
@@ -53,19 +64,6 @@ li {
     padding-top: 1%;
 }
 
-.footlink {
-    padding: 1%;
-    font-size: 2.5rem;
-
-}
-
-.footer-link {
-    padding: 1%;
-}
-
-.footer-link:hover {
-    opacity: .5;
-}
 
 /* Resume CSS */
 
@@ -89,4 +87,20 @@ li {
 .rescolumns {
     padding: 3% 3% 3%;
 
+}
+
+
+/* Footer */
+.footlink {
+    padding: 1%;
+    font-size: 2.5rem;
+
+}
+
+.footer-link {
+    padding: 1%;
+}
+
+.footer-link:hover {
+    opacity: .5;
 }
